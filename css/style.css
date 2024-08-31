@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+p{
+    padding-left: 20px;
+
+}
+.bo{
+    border-bottom: 1px solid black;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    padding: 0 10px;
+    gap:20px;
+}
+.nav-center{
+    display: flex;
+    flex: 5;
+    align-items: center;
+    padding: 0 0 0 10px;
+    justify-content: center;
+}
+
+img{
+    width: 100px;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 403px;
+    height: 6vh;
+    border-radius: 30px 0 0 30px;
+    padding: 4px;
+    border: 1px solid gray;
+}
+.form-group button{
+    width: 50px;
+    height: 7.7vh;
+    border-radius: 0 30px 30px 0;
+    background-color: rgb(209, 206, 206);
+    border:1px solid gray ;
+}
+.voice{
+    display: flex;
+    margin: 10px;
+}
+
+.nav-right{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.nav-right img{
+    position: relative;
+    height: 40px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bth{
+    border-radius: 25px  25px;
+    height: 10px;
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+    border:1px solid gray ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex: 2;
+    /* height: 110vh; */
+}
+aside {
+    flex: 2;
+    background: rgb(207, 206, 203);
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    
+}
+main{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+   
+}
+.content {
+    display: flex;
+    flex:0.5;
+    background: rgb(172, 179, 172);
+    border: 0 0 0 5px;
+    justify-content: space-between;
+    overflow-y: scroll; 
+}  
+.vdo{
+    flex: 10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: scroll;
+}                      
+.card{
+    margin: 15px;
+    /* background-color: green; */
+    width: 30%;
+    height: 20%;
+    gap: 20px;
+}
+.video-img{
+    display: flex;
+   
+}
+
+.video-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    gap:2px;
+    flex-direction: row; 
+}
+.video-content {
+    flex-direction: column;
+    display: flex;
+    height: 2px; 
+}
+p{
+    display: flex;
+    flex-direction: row;
+}
